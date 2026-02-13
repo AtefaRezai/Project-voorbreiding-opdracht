@@ -1,0 +1,39 @@
+/* CSS voor de about-pagina */
+:root {
+  --bg: #f7f7fb;
+  --card: #ffffff;
+  --accent: #2b6cb0;
+  --text: #222;
+  --muted: #555;
+  --radius: 8px;
+}
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+header {
+  background: linear-gradient(90deg, var(--accent), #4c9fe6);
+  color: white;
+  padding: 24px 16px;
+  text-align: center;
+}
+main {
+  max-width: 900px;
+  margin: 28px auto;
+  padding: 16px;
+}
+section {
+  background: var(--card);
+  padding: 18px;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 8px rgba(15,15,15,0.06);
+  margin-bottom: 16px;
+}
+h1, h2 { margin: 0 0 8px 0; }
+p, ul { margin: 0 0 8px 0; color: var(--muted); }
+a { color: var(--accent); }
+footer { text-align: center; padding: 20px 10px; color: var(--muted); }
